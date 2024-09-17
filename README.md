@@ -1,6 +1,3 @@
-Great! You can showcase the interactivity of your Tableau dashboard with the screenshots you mentioned. Here's an updated version of the README file that includes sections for these images:
-
----
 
 # Data Cleaning and Analysis: SQL & Tableau
 
@@ -18,41 +15,40 @@ The dataset contains information about sales, profits, units sold, product segme
 - **COGS**: Cost of Goods Sold.
 - **Date**: Sales date, broken down into year, month, and day.
 
-<h3>Tableau Dashboard Visualization</h3>
+---
 
-<p align="center">
-  <img src="Tableau/Images/Dashboard.png" alt="Tableau Dashboard" style="max-width: 70%; height: auto;">
-</p>
+## Tableau Dashboard Visualization
 
-You can view the Tableau dashboard here:  
-[Interactive Tableau Dashboard](https://mrayane.github.io/Data-Cleaning-Analysis-SQL-Tableau/)
+Explore the full interactive Tableau dashboard by visiting this link:
 
-### Tableau Interactivity
+### [View the Tableau Dashboard](https://mrayane.github.io/Data-Cleaning-Analysis-SQL-Tableau/)
 
-1. **Main Dashboard View**:
-   <p align="center">
-     <img src="Tableau/Images/Dashboard.png" alt="Main Dashboard View" style="max-width: 70%; height: auto;">
-   </p>
+Alternatively, you can view some of the sales dashboard’s key features and interactivity in the screenshots below:
 
-2. **Tooltip Functionality**:
-   <p align="center">
-     <img src="Tableau/Images/Tooltip.png" alt="Tooltip Screenshot" style="max-width: 70%; height: auto;">
-   </p>
+### 1. Main Dashboard View:  
+This screenshot provides a comprehensive view of the main Tableau dashboard. It showcases key metrics like total sales, profit by country, and segment performance, offering a high-level overview of the dataset’s insights.
 
-3. **Filter Options - 1**:
-   <p align="center">
-     <img src="images/Options_Filters_1.jpg" alt="Filter Options 1" style="max-width: 70%; height: auto;">
-   </p>
+<p align="center"> <img src="Tableau/Images/Dashboard.png" alt="Main Dashboard View" style="max-width: 70%; height: auto;"> </p>
 
-4. **Filter Options - 2 (After Clicking)**:
-   <p align="center">
-     <img src="images/Filters_2.jpg" alt="Filter Options 2" style="max-width: 70%; height: auto;">
-   </p>
+### 2. Tooltip Functionality:  
+When hovering over a specific data point in the dashboard, tooltips appear, providing additional context and details such as profit margins and discount percentages. This feature enhances the interactivity and allows for deeper analysis without overwhelming the dashboard with too much visible data.
 
-5. **Bar Chart Interaction**:
-   <p align="center">
-     <img src="images/Bar_Chart_Interaction.jpg" alt="Bar Chart Interaction" style="max-width: 70%; height: auto;">
-   </p>
+<p align="center"> <img src="Tableau/Images/Tooltip.png" alt="Tooltip Screenshot" style="max-width: 70%; height: auto;"> </p>
+
+### 3. Filter Options - Initial View:  
+The filter options on the dashboard allow users to select different segments, countries, or time periods to refine the analysis. This screenshot demonstrates how the filters look before any selection is made, allowing users to explore data dynamically based on specific criteria.
+
+<p align="center"> <img src="Tableau/Images/Filters-1.png" alt="Filter Options - Initial View" style="max-width: 70%; height: auto;"> </p>
+
+### 4. Filter Selection in Action:  
+This screenshot shows the dashboard after a filter has been applied. The dashboard updates in real-time to reflect the filtered data, highlighting the interactive nature of the dashboard and its ability to adapt to user preferences.
+
+<p align="center"> <img src="Tableau/Images/Filters-2.png" alt="Filter Selection in Action" style="max-width: 70%; height: auto;"> </p>
+
+### 5. Bar Chart Interaction:  
+Clicking on a specific bar in the bar chart drills down into the data, showing more detailed insights about the selected metric. This interactivity helps users focus on particular products and explore patterns at a granular level.
+
+<p align="center"> <img src="Tableau/Images/Interactivity.png" alt="Bar Chart Interaction" style="max-width: 70%; height: auto;"> </p>
 
 These screenshots highlight the interactivity of the dashboard, showing how tooltips, filters, and clicks on chart elements update the entire visualization dynamically.
 
@@ -84,16 +80,21 @@ The SQL scripts used to clean the dataset are provided in the repository under t
 - Standardizing the dataset for analysis
 
 ### Tableau Dashboard
-The Tableau workbook (`.twb` or `.twbx`) can be found in the `Tableau` folder. You can open this file using Tableau Desktop to view and interact with the visualizations.
+The Tableau workbook `.twbx` can be found in the `Tableau` folder. You can open this file using Tableau Desktop to view and interact with the visualizations.
 
 Alternatively, you can view the embedded Tableau dashboard via the provided [index.html](https://mrayane.github.io/Data-Cleaning-Analysis-SQL-Tableau/) page.
 
 ## Key Insights
-Some of the key analyses and insights derived from this project include:
-- Total Sales and Profit by Country
-- Segment Performance across regions
-- Discount Utilization and its impact on sales
-- Year-over-year Sales Growth and Profit Trends
+Some of the key analyses and insights visualized in the Tableau dashboard include:
+
+- **Total Sales**: Displays total sales and the percentage difference compared to the previous year.
+- **Total Units Sold**: Shows the total units sold and the year-over-year percentage change.
+- **Total Profit**: Highlights total profit alongside the percentage difference compared to the previous year.
+- **Sales by Product and Year**: Compares sales by product for the selected year, previous year, and includes profit details.
+- **Sales & Profit Trends**: Visualizes the trends in sales and profit over time, helping to identify growth patterns.
+
+The dashboard also allows filtering by **year**, **country**, **segment**, and **product** for more detailed analysis. 
+
 
 ## Authors
 Rayane Mehires - rayanemehires@gmail.com
@@ -101,7 +102,3 @@ Rayane Mehires - rayanemehires@gmail.com
 Project Link: [GitHub - Data Cleaning and Analysis with SQL & Tableau](https://github.com/MRayane/Data-Cleaning-Analysis-SQL-Tableau)
 
 ## Thank You
-
----
-
-This version highlights your Tableau interactivity with screenshots while keeping the README structured and informative.
