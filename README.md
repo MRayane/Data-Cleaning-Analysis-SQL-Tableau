@@ -1,3 +1,6 @@
+Great! You can showcase the interactivity of your Tableau dashboard with the screenshots you mentioned. Here's an updated version of the README file that includes sections for these images:
+
+---
 
 # Data Cleaning and Analysis: SQL & Tableau
 
@@ -18,11 +21,40 @@ The dataset contains information about sales, profits, units sold, product segme
 <h3>Tableau Dashboard Visualization</h3>
 
 <p align="center">
-  <img src="images/Tableau_Dashboard.png" alt="Tableau Dashboard" style="max-width: 70%; height: auto;">
+  <img src="Tableau/Images/Dashboard.png" alt="Tableau Dashboard" style="max-width: 70%; height: auto;">
 </p>
 
 You can view the Tableau dashboard here:  
 [Interactive Tableau Dashboard](https://mrayane.github.io/Data-Cleaning-Analysis-SQL-Tableau/)
+
+### Tableau Interactivity
+
+1. **Main Dashboard View**:
+   <p align="center">
+     <img src="Tableau/Images/Dashboard.png" alt="Main Dashboard View" style="max-width: 70%; height: auto;">
+   </p>
+
+2. **Tooltip Functionality**:
+   <p align="center">
+     <img src="Tableau/Images/Tooltip.png" alt="Tooltip Screenshot" style="max-width: 70%; height: auto;">
+   </p>
+
+3. **Filter Options - 1**:
+   <p align="center">
+     <img src="images/Options_Filters_1.jpg" alt="Filter Options 1" style="max-width: 70%; height: auto;">
+   </p>
+
+4. **Filter Options - 2 (After Clicking)**:
+   <p align="center">
+     <img src="images/Filters_2.jpg" alt="Filter Options 2" style="max-width: 70%; height: auto;">
+   </p>
+
+5. **Bar Chart Interaction**:
+   <p align="center">
+     <img src="images/Bar_Chart_Interaction.jpg" alt="Bar Chart Interaction" style="max-width: 70%; height: auto;">
+   </p>
+
+These screenshots highlight the interactivity of the dashboard, showing how tooltips, filters, and clicks on chart elements update the entire visualization dynamically.
 
 ## Data Cleaning Process
 SQL was used extensively to clean the dataset before it was visualized in Tableau. Some of the key steps include:
@@ -72,4 +104,4 @@ Project Link: [GitHub - Data Cleaning and Analysis with SQL & Tableau](https://g
 
 ---
 
-This README provides a structured overview of your project and highlights key components like the Tableau dashboard and SQL cleaning process. Let me know if you’d like to adjust anything further!
+This version highlights your Tableau interactivity with screenshots while keeping the README structured and informative.
