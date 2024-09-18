@@ -5,7 +5,7 @@
 This project demonstrates data cleaning, analysis, and visualization using SQL for preprocessing and Tableau for dashboarding. The data used was sourced from Kaggle and represents sales and financial records for products across various countries and segments. The objective of this project is to clean the dataset using SQL and visualize key insights through an interactive Tableau dashboard.
 
 ## Data Source
-The data for this project was sourced from Kaggle. You can access the dataset and more details [here](https://www.kaggle.com/datasets/atharvaarya25/financials).
+The data for this project was sourced from Kaggle. You can access the dataset and more details [here](https://www.kaggle.com/datasets/atharvaarya25/financials). The CSV file of the dataset is also available in the Dataset folder within this repository.
 
 ## Dataset Description
 The dataset contains information about sales, profits, units sold, product segments, and more across multiple regions. Key fields include:
@@ -34,6 +34,8 @@ SQL was used extensively to clean the dataset before it was visualized in Tablea
 
 4. **Handling Missing and Inconsistent Data**:
    - Dealt with missing values and standardized inconsistent entries.
+
+You can find the cleaned dataset in the `SQL` folder of this repository.
 
 ## Tableau Dashboard Visualization
 
