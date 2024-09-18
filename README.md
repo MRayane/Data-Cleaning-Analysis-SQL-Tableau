@@ -4,6 +4,9 @@
 ## Project Overview
 This project demonstrates data cleaning, analysis, and visualization using SQL for preprocessing and Tableau for dashboarding. The data used was sourced from Kaggle and represents sales and financial records for products across various countries and segments. The objective of this project is to clean the dataset using SQL and visualize key insights through an interactive Tableau dashboard.
 
+## Data Source
+The data for this project was sourced from Kaggle. You can access the dataset and more details [here](https://www.kaggle.com/datasets/atharvaarya25/financials).
+
 ## Dataset Description
 The dataset contains information about sales, profits, units sold, product segments, and more across multiple regions. Key fields include:
 - **Segment**: Product segments such as Consumer, Corporate, and Home Office.
@@ -17,13 +20,30 @@ The dataset contains information about sales, profits, units sold, product segme
 
 ---
 
+## Data Cleaning Process
+SQL was used extensively to clean the dataset before it was visualized in Tableau. The script used is provided in the repository under the `SQL` folder, It includes:
+
+1. **Removing Special Characters**:
+   - Removed `$` sign and `-` from columns where they were present to clean monetary values.
+   
+2. **Changing Data Types**:
+   - Adjusted the data types of relevant columns to accurately represent the underlying data (e.g., converting string fields to numeric).
+
+3. **Removing Thousand Separators**:
+   - Commas used as thousand separators in numerical fields were removed for easier analysis.
+
+4. **Handling Missing and Inconsistent Data**:
+   - Dealt with missing values and standardized inconsistent entries.
+
 ## Tableau Dashboard Visualization
 
-Explore the full interactive Tableau dashboard by visiting this link:
+The Tableau workbook `.twbx` can be found in the `Tableau` folder. You can open this file using Tableau Desktop to view and interact with the visualizations.
+
+Alternatively, you can explore the full interactive Tableau dashboard by visiting this link:
 
 ### [View the Tableau Dashboard](https://mrayane.github.io/Data-Cleaning-Analysis-SQL-Tableau/)
 
-Alternatively, you can view some of the sales dashboard’s key features and interactivity in the screenshots below:
+Additionally, you can view some of the sales dashboard’s key features and interactivity in the screenshots below:
 
 ### 1. Main Dashboard View:  
 This screenshot provides a comprehensive view of the main Tableau dashboard. It showcases key metrics like total sales, profit by country, and segment performance, offering a high-level overview of the dataset’s insights.
@@ -52,37 +72,10 @@ Clicking on a specific bar in the bar chart drills down into the data, showing m
 
 These screenshots highlight the interactivity of the dashboard, showing how tooltips, filters, and clicks on chart elements update the entire visualization dynamically.
 
-## Data Cleaning Process
-SQL was used extensively to clean the dataset before it was visualized in Tableau. Some of the key steps include:
-
-1. **Removed Special Characters**:
-   - Removed `$` sign and `-` from columns where they were present to clean monetary values.
-   
-2. **Changed Data Types**:
-   - Adjusted the data types of relevant columns to accurately represent the underlying data (e.g., converting string fields to numeric).
-
-3. **Removed Thousand Separators**:
-   - Commas used as thousand separators in numerical fields were removed for easier analysis.
-
-4. **Handled Missing or Inconsistent Data**:
-   - Dealt with missing values and standardized inconsistent entries.
-
 ## Installation and Requirements
 To replicate the SQL cleaning process and Tableau dashboard, you'll need the following tools:
 - SQL Server Management Studio (SSMS) or another SQL environment.
 - Tableau Public or Tableau Desktop for visualization.
-
-### SQL Process
-The SQL scripts used to clean the dataset are provided in the repository under the `SQL` folder. These scripts include:
-- Cleaning monetary values
-- Removing unwanted characters
-- Changing data types
-- Standardizing the dataset for analysis
-
-### Tableau Dashboard
-The Tableau workbook `.twbx` can be found in the `Tableau` folder. You can open this file using Tableau Desktop to view and interact with the visualizations.
-
-Alternatively, you can view the embedded Tableau dashboard via the provided [index.html](https://mrayane.github.io/Data-Cleaning-Analysis-SQL-Tableau/) page.
 
 ## Key Insights
 Some of the key analyses and insights visualized in the Tableau dashboard include:
