@@ -9,14 +9,14 @@ The data for this project was sourced from Kaggle. You can access the dataset an
 
 ## Dataset Description
 The dataset contains information about sales, profits, units sold, product segments, and more across multiple regions. Key fields include:
-- **Segment**: Product segments such as Consumer, Corporate, and Home Office.
+- **Segment**: Product segments such as Channel Partners, Enterprise, Government, Midmarket and Small Business.
 - **Country**: Geographic sales distribution.
 - **Product**: Individual product information.
 - **Units Sold**: The number of units sold.
 - **Profit**: Calculated profit for each sale.
 - **Discounts**: Discounts applied to the products.
 - **COGS**: Cost of Goods Sold.
-- **Date**: Sales date, broken down into year, month, and day, covering the period from **September 2013** to **December 2014**.
+- **Date**: Sales date, broken down into year, and month, covering the period from **September 2013** to **December 2014**.
 
 ---
 
