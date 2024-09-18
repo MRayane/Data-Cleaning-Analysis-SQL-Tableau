@@ -16,7 +16,7 @@ The dataset contains information about sales, profits, units sold, product segme
 - **Profit**: Calculated profit for each sale.
 - **Discounts**: Discounts applied to the products.
 - **COGS**: Cost of Goods Sold.
-- **Date**: Sales date, broken down into year, month, and day.
+- **Date**: Sales date, broken down into year, month, and day, covering the period from **September 2013** to **December 2014**.
 
 ---
 
