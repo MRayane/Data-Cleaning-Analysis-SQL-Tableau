@@ -43,7 +43,7 @@ The Tableau workbook `.twbx` can be found in the `Tableau` folder. You can open 
 
 Alternatively, you can explore the full interactive Tableau dashboard by visiting this link:
 
-### [View the Tableau Dashboard](https://mrayane.github.io/Data-Cleaning-Analysis-SQL-Tableau/)
+### [Access the Interactive Tableau Dashboard](https://mrayane.github.io/Data-Cleaning-Analysis-SQL-Tableau/)
 
 Additionally, you can view some of the sales dashboard’s key features and interactivity in the screenshots below:
 
